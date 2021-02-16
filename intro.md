@@ -25,3 +25,6 @@ You can also choose to embrace the platform differences i.e
 By default flutter uses Material Design which is created and heavily used by Google.
 
 Material Design is highly customizable and works on iOS devices too and it is built into Flutter but you can also find Apple-Styled (Cupertino) widgets
+
+### Create an infinite scrolling ListView (branch: infinite-scroll)
+In this step, you'll expand _RandomWordsState to generate and display a list of word pairings. As the user scrolls, the list (displayed in a ListView widget) grows infinitely. The builder factory constructor in ListView allows you to lazily build a list view on demand.
