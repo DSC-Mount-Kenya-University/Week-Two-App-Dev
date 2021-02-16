@@ -26,7 +26,7 @@ By default flutter uses Material Design which is created and heavily used by Goo
 
 Material Design is highly customizable and works on iOS devices too and it is built into Flutter but you can also find Apple-Styled (Cupertino) widgets
 
-## Building Our App
+## Building Our App (branch: hello-world)
 Stateless widgets are immutable, meaning that their properties can't change—all values are final.
 
 Stateful widgets maintain state that might change during the lifetime of the widget. Implementing a stateful widget requires at least two classes: 1) a StatefulWidget that creates an instance of a State class. The StatefulWidget object is, itself, immutable and can be thrown away and regenerated, but the State object persists over the lifetime of the widget.
@@ -35,5 +35,5 @@ Stateful widgets maintain state that might change during the lifetime of the wid
 
 In this step, you'll add a stateful widget, RandomWords, which creates its State class, _RandomWordsState. You'll then use RandomWords as a child inside the existing MyApp stateless widget.
 
-### Create an infinite scrolling ListView (branch: infinite-scroll)
+### Create an infinite scrolling ListView (branch: main)
 In this step, you'll expand _RandomWordsState to generate and display a list of word pairings. As the user scrolls, the list (displayed in a ListView widget) grows infinitely. The builder factory constructor in ListView allows you to lazily build a list view on demand.
