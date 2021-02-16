@@ -31,9 +31,3 @@ Stateless widgets are immutable, meaning that their properties can't change—al
 
 Stateful widgets maintain state that might change during the lifetime of the widget. Implementing a stateful widget requires at least two classes: 1) a StatefulWidget that creates an instance of a State class. The StatefulWidget object is, itself, immutable and can be thrown away and regenerated, but the State object persists over the lifetime of the widget.
 
-### Adding a Stateful Widget (branch: adding-stateful)
-
-In this step, you'll add a stateful widget, RandomWords, which creates its State class, _RandomWordsState. You'll then use RandomWords as a child inside the existing MyApp stateless widget.
-
-### Create an infinite scrolling ListView (branch: infinite-scroll)
-In this step, you'll expand _RandomWordsState to generate and display a list of word pairings. As the user scrolls, the list (displayed in a ListView widget) grows infinitely. The builder factory constructor in ListView allows you to lazily build a list view on demand.
