@@ -26,6 +26,10 @@ By default flutter uses Material Design which is created and heavily used by Goo
 
 Material Design is highly customizable and works on iOS devices too and it is built into Flutter but you can also find Apple-Styled (Cupertino) widgets
 
+    N/B: Before we start bulding our app, I would recommend you start with hello-world branch as it has the starting point, then move to adding-stateful branch then finally the main branch.
+
+    To switch between the branches, you need to use git checkout <branch name> or when in github there is a dropdown with the different branches.
+
 ## Building Our App (branch: hello-world)
 Stateless widgets are immutable, meaning that their properties can't change—all values are final.
 
